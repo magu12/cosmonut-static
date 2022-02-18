@@ -1,0 +1,145 @@
+input {
+    background: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    margin-top: 0 !important;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    zoom: 80%;
+    -ms-zoom: 80%;
+    -webkit-zoom: 80%;
+    padding-bottom: 500px;
+    min-height: 75vh;
+}
+
+.btn {
+    width: 258px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none !important;
+    background-image: url(../img/btn.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #301606;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    transform: scale(1.00);
+    &:hover {
+        text-decoration: none;
+        color: #301606;
+        transform: scale(1.03);
+    }
+    &.off {
+        filter: grayscale(100%);
+    }
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    z-index: 8;
+    left: -70px;
+    width: 50px;
+    height: 50px;
+    background: #F5ECE7;
+    border-radius: 100%;
+    &::after {
+        content: '';
+        width: 14px;
+        height: 25px;
+        background: url(../img/prev.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    z-index: 8;
+    right: -70px;
+    width: 50px;
+    height: 50px;
+    background: #F5ECE7;
+    border-radius: 100%;
+    &::after {
+        content: '';
+        width: 14px;
+        height: 25px;
+        background: url(../img/next.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: 54%;
+}
+
+.swiper-wrapper {
+    padding-bottom: 75px;
+    height: initial;
+}
+
+h1.title {
+    font-family: FuturaDemiC;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #301606;
+}
+
+h2.title {
+    font-family: FuturaDemiC;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #301606;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Montserrat';
+}
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/sale";
+@import "blocks/product-card";
+@import "blocks/categories";
+@import "blocks/hit";
+@import "blocks/video";
+@import "blocks/cosmo-blog";
+@import "blocks/about";
+@import "blocks/catalog";
+@import "blocks/card";
+@import "blocks/cart";
+@import "blocks/pay";
+@import "blocks/blog";
+@import "blocks/blog-singl";
+@import "blocks/contacts";
+@import "blocks/modal";
+@import "blocks/404";
+@import "blocks/footer";
+@import "blocks/media";
+.wrap {
+    width: 1170px;
+    margin: 0 auto;
+}

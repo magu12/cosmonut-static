@@ -1,0 +1,46 @@
+.pay {
+    padding: 70px 0;
+    background: #FFFAF8;
+    margin-bottom: -90px;
+    margin-top: 180px;
+    h1.title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #301606;
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        width: 46%;
+    }
+    &__img {
+        background: #FFF7DE;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130.19%;
+        color: #000000;
+        margin-top: 25px;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 130.19%;
+        color: #000000;
+    }
+}

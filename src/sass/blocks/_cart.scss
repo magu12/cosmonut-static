@@ -1,0 +1,108 @@
+.cart {
+    margin: 70px 0;
+    margin-top: 240px;
+    h1.title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        text-transform: uppercase;
+        color: #301606;
+    }
+    &__items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        border-bottom: 1px solid #AE917E;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 220px;
+        padding: 20px 0;
+        border-top: 1px solid #AE917E;
+        img {
+            height: 100%;
+            width: 190px;
+            object-fit: cover;
+        }
+    }
+    &__delete {
+        position: absolute;
+        cursor: pointer;
+        right: 5px;
+        top: 5px;
+        width: 30px;
+        height: 30px;
+        background: #F5ECE7;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #301606;
+        width: 440px;
+    }
+    &__price {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: right;
+        color: #301606;
+    }
+    .product-card__calc {
+        margin-top: 0;
+    }
+    .product-card__col {
+        margin-right: 30px;
+    }
+    .product-card__total {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #301606;
+        span {
+            font-weight: bold;
+        }
+    }
+    &__bottom {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_right {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__you-order {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #301606;
+    }
+    &__you-order-info {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #301606;
+    }
+    &__total {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: right;
+        color: #301606;
+        margin-right: 80px;
+    }
+}
